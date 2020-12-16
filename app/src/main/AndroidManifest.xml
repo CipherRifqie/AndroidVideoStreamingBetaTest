@@ -1,0 +1,43 @@
+<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.streamingandrouas">
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="StreamingAndroUAS"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.StreamingAndroUAS">
+    <activity android:name=".PlayActivity"></activity>
+    <activity
+        android:name=".ListActivity"
+        android:label="@string/title_activity_list"
+        android:theme="@style/Theme.StreamingAndroUAS.NoActionBar" />
+    <activity android:name=".CategoryActivity" />
+    <activity
+        android:name=".AuthActivity"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.StreamingAndroUAS.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".MainActivity"
+        android:theme="@style/Theme.StreamingAndroUAS.NoActionBar" />
+    <activity
+        android:name=".PlayActivity"
+        android:theme="@style/Theme.StreamingAndroUAS.NoActionBar" />
+</application>
+
+</manifest>=======
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<application>
+    <activity android:name="com.example.streamingandrouas.LikeActivity"></activity>
+</application>
+</manifest>>>>>>>> Added
